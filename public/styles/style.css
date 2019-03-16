@@ -1,3 +1,8 @@
+*{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
 .reset {
     margin: 0;
     padding: 0;
@@ -15,13 +20,15 @@
 }
 
 .img-parallax {
-    background-image: (url("/app-images/parking-1.png"));
-    height: 70vh;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("../../app-images/hero.jpg");
+    height: 80vh;
     background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .img-cont{
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
