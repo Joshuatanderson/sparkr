@@ -1,11 +1,27 @@
-.logo{
-    width: 600px;
-    height: 300px;
-    background-image: url("../images/sparkr-logo-white-02.png");
+.reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo-holder {
+    height: 200px;
+    width: 100%;
+    max-height: 500px;
+    background-image: url("https://slwillson.files.wordpress.com/2019/03/sparkr-logo-white-02.png");
+    background-position: left;
+    background-repeat: no-repeat;
     z-index: 1;
 }
 
+.img-parallax {
+    background-image: (url("/app-images/parking-1.png"));
+    height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-.image-cont{
-    background-image: (url())
+.img-cont{
+    height: 600px;
+    width: 100%;
 }
